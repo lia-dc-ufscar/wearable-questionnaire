@@ -1,0 +1,230 @@
+body {
+    padding-top: 50px;
+    background: #ededed;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
+
+.modal-title {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.info {
+    font-size: 17px;
+}
+
+.modal-footer {
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.modal-footer button{
+    margin-bottom: 10px;
+}
+h1,
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards span {
+    width: 115px;
+    display: inline-block;
+}
+
+.participant {
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+    padding: 12px;
+}
+
+#participant_id {
+    width: 50px;
+    height: 30px;
+}
+
+#questionnarie_stage {
+    width: 200px;
+    height: 30px;
+}
+
+#participant_id,
+#questionnarie_stage {
+    color: #000;
+    text-align: center;
+    border: 1px #ccc solid;
+}
+
+.section {
+    padding-bottom: 80px;
+    padding-top: 50px;
+    background: #fff;
+    border-bottom: 1px #ccc solid;
+}
+
+.center {
+    text-align: center;
+}
+
+.info-left {
+    text-align: right;
+    width: 150px;
+    float: left;
+}
+
+.info-right {
+    text-align: left;
+    width: 150px;
+    float: left;
+}
+
+.cards {
+    text-align: center;
+    width: 600px;
+    float: left;
+    height: 125px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 750px;
+    padding-left: 150px;
+}
+
+.checkbox label,
+.radio label {
+    padding-left: 40px;
+    margin-bottom: 4px;
+}
+
+.checkbox,
+.radio {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.radio input[type=radio],
+.checkbox input[type=checkbox] {
+    display: none;
+}
+
+.radio label:before {
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #bebebe;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+.radios {
+    padding-left: 200px;
+}
+
+.radios .radio {
+    width: 55px;
+}
+
+.likert-radios .radio {
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.question.warning h3 {
+    color: #a02a2a
+}
+
+.radio {
+    display: inline-block;
+}
+
+.radio label:before {
+    border-radius: 14px;
+}
+
+.checkbox label {
+    margin-bottom: 10px;
+}
+
+.checkbox label:before {
+    border-radius: 3px;
+}
+
+.radio input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #333;
+    font-size: 52px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.checkbox input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    line-height: 15px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+@media (max-width: 992px) {
+    .cards {
+        width: 100%;
+    }
+    .cards a {
+        width: 95px;
+    }
+    .info-left,
+    .info-right {
+        width: 0px;
+    }
+    .radios {
+        padding-left: 110px;
+    }
+    .radios .radio {
+        width: 55px;
+    }
+    .likert-radios .radio {
+        margin-right: 20px;
+    }
+    .card-title {
+        width: 675px;
+        padding-left: 50px;
+    }
+    .navbar-collapse:after,
+    .navbar-collapse:before,
+    .navbar-header:after,
+    .navbar-header:before,
+    .navbar:after,
+    .navbar:before {
+        display: block !important;
+        content: none;
+    }
+}
