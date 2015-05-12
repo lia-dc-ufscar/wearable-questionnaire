@@ -30,7 +30,7 @@
         <br/>
         <b>Post-Questionnaire:</b>
         <ul>
-            <li><a href="interaction_questionnaire_community.php">Interaction Questionnaire - Community #2</a>
+            <li><a href="interaction_questionnaire_community.php">Interaction Questionnaire - Community #1</a>
             </li>
 
         </ul>
@@ -49,15 +49,15 @@
         <br/>
         <b>Post-Questionnaire:</b>
         <ul>
-            <li><a href="use_questionnaire-nocontrol.php">Use Questionnaire - Wearer (No Control) #2</a>
+            <li><a href="use_questionnaire-nocontrol.php">Use Questionnaire - Wearer (No Control) #1</a>
+            </li>
+            <br/>
+            <li><a href="interaction_questionnaire_participant-nocontrol.php">Interaction Questionnaire - Wearer (No Control) #2</a>
             </li>
             <br/><li><a href="use_questionnaire-fullcontrol.php">Use Questionnaire - Wearer (Full Control) #3</a>
             </li>
             <br/>
-            <li><a href="interaction_questionnaire_participant-nocontrol.php">Interaction Questionnaire - Wearer (No Control) #4</a>
-            </li>
-            <br/>
-            <li><a href="interaction_questionnaire_participant-fullcontrol.php">Interaction Questionnaire - Wearer (Full Control) #5</a>
+            <li><a href="interaction_questionnaire_participant-fullcontrol.php">Interaction Questionnaire - Wearer (Full Control) #4</a>
             </li>
         </ul>
     </div>
