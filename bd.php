@@ -63,8 +63,8 @@ function saveAnswers() {
             }
             $newAnswer->answer_value = $field_val;
             
-            if (isset($_POST['s'.section_id.'q'.question_id])){
-                $newAnswer->question = $_POST['s'.section_id.'-q'.question_id];
+            if (isset($_POST['s'.$newAnswer->section_id.'-q'.$newAnswer->question_id])){
+                $newAnswer->question = $_POST['s'.$newAnswer->section_id.'-q'.$newAnswer->question_id];
             }
                 
             $query = "INSERT INTO answers(id, participant_id, questionnarie_name, questionnarie_stage, section_id, question_id, question, answer_type, answer_value) VALUES (NULL, '$newAnswer->participant_id', '$newAnswer->questionnarie_name', '$newAnswer->questionnarie_stage', '$newAnswer->section_id', '$newAnswer->question_id', '$newAnswer->question', '$newAnswer->answer_type', '$newAnswer->answer_value');"; 
